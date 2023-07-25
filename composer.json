@@ -1,0 +1,22 @@
+{
+    "name": "salin/suppliers.local",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "acme73",
+            "email": "website.khosravi@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.83",
+        "illuminate/events": "^8.83",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-gettext": "*",
+        "firebase/php-jwt": "^6.5"
+    }
+}
